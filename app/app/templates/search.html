@@ -1,0 +1,18 @@
+<html> 
+<head> 
+<title>test</title>
+</head>
+<body>
+    <h1>Search Endangered Species by State</h1>
+        <form method="POST" action="{{ url_for('searching') }}"> 
+            {{form.csrf_token}}
+            {{form.state.label}}
+            {{form.state}}
+            <ul>
+                {% for error in form.state.errors %}
+                    <li style="color:crimson;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+    <input type="submit" value="Submit"> 
+</body>
+</html>
