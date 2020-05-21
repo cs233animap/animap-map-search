@@ -2,4 +2,4 @@
 #the fields are in order: db host, username, password, database name
 fields = ["dfdfdf", "fdfdf", "dfdfdsf", "dfdsfds"]  
 #fill these in with your own values  
-#i added randome values here since this is going on github
+#i added random values here since this is going on github
